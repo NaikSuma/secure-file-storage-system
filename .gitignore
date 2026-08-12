@@ -28,3 +28,7 @@ replay_pid*
 
 # Encrypted/uploaded files
 encrypted-files/
+
+# Maven
+target/
+**/target/
