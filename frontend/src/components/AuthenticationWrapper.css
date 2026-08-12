@@ -1,0 +1,36 @@
+/* src/components/AuthenticationWrapper.css */
+
+.auth-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.auth-layout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.auth-image-container {
+  width: 60%;
+  padding: 1rem 0;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .auth-image-container {
+    display: inline-block;
+  }
+}
+
+.auth-image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.auth-outlet-container {
+  flex-grow: 1;
+  padding: 1rem;
+}
