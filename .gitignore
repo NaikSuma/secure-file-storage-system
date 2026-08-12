@@ -25,3 +25,6 @@ replay_pid*
 
 # Spring Boot configuration
 **/src/main/resources/application.properties
+
+# Encrypted/uploaded files
+encrypted-files/
