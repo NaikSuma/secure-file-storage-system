@@ -1,7 +1,7 @@
 package com.mit.SecureFileStorage.repository;
 
 import com.mit.SecureFileStorage.Model.FileMeta;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaRepository; 
 
 import java.util.List;
 
